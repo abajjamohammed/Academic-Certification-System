@@ -5,7 +5,7 @@
 **Master IDIA / Cybersécurité & Blockchain**  
 **Année Universitaire :** 2026 / 2027  
 **Enseignante :** Prof. Ikram BENABDELOUAHAB  
-**Étudiant :** *[Votre Nom et Prénom]*  
+**Étudiant :** *Abajja Mohammed*  
 
 ---
 
