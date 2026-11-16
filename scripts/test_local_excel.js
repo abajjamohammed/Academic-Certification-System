@@ -17,12 +17,12 @@ async function main() {
   const contractAddress = await registry.getAddress();
   console.log("[2] Contrat deploye localement a l'adresse :", contractAddress);
 
-  // 3. Test d'un mint unitaire
+// 3. Test d'un mint unitaire (ID unique qui n'est pas dans le fichier Excel)
   console.log("\n[3] Test de Mint Unitaire...");
   const tx1 = await registry.mintCertificate(
     student1.address,
-    "Amina Benali",
-    "2023-INF-042",
+    "Mehdi Chraibi",
+    "2023-INF-001", // <-- ID changé pour éviter la collision avec le fichier Excel
     "Licence Informatique",
     "2026-06-15",
     "Mention Bien"
